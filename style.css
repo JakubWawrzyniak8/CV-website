@@ -1,0 +1,148 @@
+body {
+    font-family: Arial;
+    background-color: rgb(230, 222, 230);
+}
+
+h1 {
+    color:gray;
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    display: inline;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.container {
+    box-shadow: 0 0 20px grey;
+    background-color: white;
+    width:960px;
+    margin: 0 auto;
+}
+
+section,
+header {
+    padding: 10px 60px 20px 60px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:60px;
+}
+
+li {
+    margin-bottom: 10px;
+
+}
+
+i {
+    font-size: 12px;
+}
+
+span {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.address-icon {
+    background-color: rgb(166, 112, 167);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    vertical-align: middle;
+    color: black;
+}
+
+address ul {
+    list-style: none;
+    font-size: 14px;
+}
+
+footer img {
+    background-color: rgb(166, 112, 167);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+.hobbies {
+    background-color: rgb(233, 218, 233);
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+ul.hobbies {
+    display: inline;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.hobbies-image {
+    vertical-align: middle;
+    margin:5px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    word-spacing: 120px;
+}
+
+.footer-image {
+    display:inline;
+    border-radius: 0%;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.footer b {
+    margin-left: 5px;
+}
+
+.cv-link {
+    border: 1.5px solid rgb(166, 112, 167);
+    color: black;
+    padding: 10px 20px;
+    display:inline-block;
+    margin-top:20px;
+    border-radius: 26px;
+    transition: background-color 1s; color: 1s;
+    box-shadow: 0 0 17px grey;
+}
+
+.cv-link:hover {
+    color:white;
+    background-color: rgb(166, 112, 167);
+}
+
+.cv-link:focus {
+    outline: none;
+    color:white;
+    background-color: rgb(166, 112, 167);
+}
+
+.cv-link:active {
+    text-decoration: underline;
+}
